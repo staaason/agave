@@ -1,5 +1,6 @@
 #![cfg(feature = "full")]
 
+use rand_core::{CryptoRng, OsRng, RngCore};
 #[cfg(target_arch = "wasm32")]
 use wasm_bindgen::prelude::*;
 use {
@@ -12,7 +13,6 @@ use {
     ed25519_dalek::Signer as DalekSigner,
     ed25519_dalek_bip32::Error as Bip32Error,
     hmac::Hmac,
-    rand_core::{CryptoRng, OsRng, RngCore},
     std::{
         error,
         io::{Read, Write},
