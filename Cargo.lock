@@ -1681,7 +1681,7 @@ dependencies = [
 [[package]]
 name = "curve25519-dalek"
 version = "3.2.1"
-source = "git+https://github.com/solana-labs/curve25519-dalek.git?rev=b500cdc2a920cd5bff9e2dd974d7b97349d61464#b500cdc2a920cd5bff9e2dd974d7b97349d61464"
+source = "git+https://github.com/anza-xyz/curve25519-dalek.git?rev=b500cdc2a920cd5bff9e2dd974d7b97349d61464#b500cdc2a920cd5bff9e2dd974d7b97349d61464"
 dependencies = [
  "byteorder",
  "digest 0.9.0",
@@ -1942,7 +1942,7 @@ dependencies = [
 [[package]]
 name = "ed25519-dalek"
 version = "1.0.1"
-source = "git+https://github.com/staaason/ed25519-dalek.git?rev=7e26b6b5efb5ea5a56f1dee93df5430a74d1d011#7e26b6b5efb5ea5a56f1dee93df5430a74d1d011"
+source = "git+https://github.com/staaason/ed25519-dalek.git?rev=91938d89eb5ca4a141d6fda1d1db11aebadc4388#91938d89eb5ca4a141d6fda1d1db11aebadc4388"
 dependencies = [
  "curve25519-dalek",
  "ed25519",

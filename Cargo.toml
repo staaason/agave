@@ -499,6 +499,14 @@ solana-program = { path = "sdk/program" }
 solana-zk-sdk = { path = "zk-sdk" }
 solana-zk-token-sdk = { path = "zk-token-sdk" }
 
+[patch.crates-io.curve25519-dalek]
+git = "https://github.com/anza-xyz/curve25519-dalek.git"
+rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464"
+
+[patch.crates-io.ed25519-dalek]
+git = "https://github.com/staaason/ed25519-dalek.git"
+rev = "91938d89eb5ca4a141d6fda1d1db11aebadc4388"
+
 # Solana RPC nodes experience stalls when running with `tokio` containing this
 # commit:
 # https://github.com/tokio-rs/tokio/commit/4eed411519783ef6f58cbf74f886f91142b5cfa6
@@ -517,12 +525,4 @@ solana-zk-token-sdk = { path = "zk-token-sdk" }
 git = "https://github.com/anza-xyz/solana-tokio.git"
 rev = "7cf47705faacf7bf0e43e4131a5377b3291fce21"
 
-
-[patch.crates-io.curve25519-dalek]
-git = "https://github.com/solana-labs/curve25519-dalek.git"
-rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464"
-
-[patch.crates-io.ed25519-dalek]
-git = "https://github.com/staaason/ed25519-dalek.git"
-rev = "7e26b6b5efb5ea5a56f1dee93df5430a74d1d011"
 
