@@ -31,7 +31,7 @@ solana-sdk = { workspace = true }
 solana-version = { workspace = true }
 tar = { workspace = true }
 tempfile = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 toml = { workspace = true }
 
 [dev-dependencies]

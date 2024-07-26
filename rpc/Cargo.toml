@@ -59,7 +59,7 @@ spl-token = { workspace = true, features = ["no-entrypoint"] }
 spl-token-2022 = { workspace = true, features = ["no-entrypoint"] }
 stream-cancel = { workspace = true }
 thiserror = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util", "fs"] }
 tokio-util = { workspace = true, features = ["codec", "compat"] }
 
 [dev-dependencies]

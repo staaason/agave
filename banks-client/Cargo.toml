@@ -17,7 +17,7 @@ solana-program = { workspace = true }
 solana-sdk = { workspace = true }
 tarpc = { workspace = true, features = ["full"] }
 thiserror = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 tokio-serde = { workspace = true, features = ["bincode"] }
 
 [dev-dependencies]

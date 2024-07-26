@@ -32,7 +32,7 @@ solana-test-validator = { workspace = true }
 solana-transaction-status = { workspace = true }
 solana-version = { workspace = true }
 systemstat = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 tungstenite = { workspace = true, features = ["rustls-tls-webpki-roots"] }
 
 [dev-dependencies]

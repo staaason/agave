@@ -27,7 +27,7 @@ solana-rpc-client-api = { workspace = true }
 solana-sdk = { workspace = true }
 solana-streamer = { workspace = true }
 thiserror = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 
 [dev-dependencies]
 crossbeam-channel = { workspace = true }

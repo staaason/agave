@@ -32,7 +32,7 @@ solana-svm = { workspace = true }
 solana-vote-program = { workspace = true }
 solana_rbpf = { workspace = true }
 thiserror = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 
 [dev-dependencies]
 solana-stake-program = { workspace = true }

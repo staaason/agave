@@ -20,7 +20,7 @@ solana-sdk = { workspace = true }
 solana-send-transaction-service = { workspace = true }
 solana-svm = { workspace = true }
 tarpc = { workspace = true, features = ["full"] }
-tokio = { workspace = true, features = ["full"] }
+tokio = { workspace = true, features = ["rt", "sync", "macros", "io-util"] }
 tokio-serde = { workspace = true, features = ["bincode"] }
 
 [lib]
