@@ -1,6 +1,5 @@
 #![cfg(feature = "full")]
 
-use rand_core::{CryptoRng, OsRng, RngCore};
 #[cfg(target_arch = "wasm32")]
 use wasm_bindgen::prelude::*;
 use {
@@ -19,6 +18,7 @@ use {
         path::Path,
     },
 };
+use rand_core::{CryptoRng, OsRng, RngCore};
 
 /// A vanilla Ed25519 key pair
 #[cfg_attr(target_arch = "wasm32", wasm_bindgen)]
