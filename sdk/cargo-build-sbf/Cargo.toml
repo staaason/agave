@@ -16,7 +16,7 @@ clap = { version = "3.1.5", features = ["cargo", "env"] }
 itertools = { workspace = true }
 log = { workspace = true, features = ["std"] }
 regex = { workspace = true }
-reqwest = { workspace = true, features = ["blocking", "rustls-tls"] }
+reqwest = { workspace = true }
 semver = { workspace = true }
 solana-download-utils = { workspace = true }
 solana-logger = { workspace = true }

@@ -22,7 +22,7 @@ dirs-next = { workspace = true }
 indicatif = { workspace = true }
 lazy_static = { workspace = true }
 nix = { workspace = true, features = ["signal"] }
-reqwest = { workspace = true, features = ["blocking", "brotli", "deflate", "gzip", "rustls-tls", "json"] }
+reqwest = { workspace = true, features = ["brotli", "deflate", "gzip", "json"] }
 scopeguard = { workspace = true }
 semver = { workspace = true }
 serde = { workspace = true }

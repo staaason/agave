@@ -219,7 +219,7 @@ futures-util = "0.3.29"
 gag = "1.0.0"
 generic-array = { version = "0.14.7", default-features = false }
 gethostname = "0.2.3"
-getrandom = "0.2.10"
+getrandom = "0.2.15"
 goauth = "0.13.1"
 hex = "0.4.3"
 hidapi = { version = "2.6.1", default-features = false }
@@ -549,3 +549,8 @@ rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464"
 [patch.crates-io.tokio]
 git = "https://github.com/anza-xyz/solana-tokio.git"
 rev = "7cf47705faacf7bf0e43e4131a5377b3291fce21"
+
+
+[patch.crates-io.ed25519-dalek]
+git = "https://github.com/staaason/ed25519-dalek.git"
+rev = "7e26b6b5efb5ea5a56f1dee93df5430a74d1d011"
