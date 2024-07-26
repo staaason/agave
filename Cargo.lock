@@ -7161,7 +7161,7 @@ dependencies = [
  "ed25519-dalek",
  "ed25519-dalek-bip32",
  "generic-array",
- "getrandom 0.1.16",
+ "getrandom 0.2.15",
  "hex",
  "hmac 0.12.1",
  "itertools 0.12.1",
